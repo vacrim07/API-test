@@ -2,7 +2,7 @@ package model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class Post {
+public class Comment {
 
     @JsonProperty("userId")
     private Integer userId;
