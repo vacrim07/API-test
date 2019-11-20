@@ -8,11 +8,11 @@ import static org.apache.http.HttpStatus.SC_OK;
 
 public class CommentTest {
 
-    private final static String BASIC_PATH = "https://jsonplaceholder.typicode.com/";
+    private final static String BASIC_PATH = "https://jsonplaceholder.typicode.com";
 
     @Test
     public static void shouldGetAComment() {
-        String endpoint = "posts/2";
+        String endpoint = "/posts/2";
         given()
                 .when()
                 .get(BASIC_PATH + endpoint)
