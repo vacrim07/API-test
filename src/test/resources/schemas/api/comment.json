@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+    "userId": {
+      "type": "integer"
+    },
+    "id": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string",
+      "enum": [
+        "qui est esse"
+      ]
+    },
+    "body": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "userId",
+    "id",
+    "title",
+    "body"
+  ]
+}
